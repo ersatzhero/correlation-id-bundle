@@ -1,0 +1,4 @@
+correlationId:
+  headerName: X-CorrelationId
+  attributeName: correlationId
+  logAttributeName: correlationId
