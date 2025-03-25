@@ -18,6 +18,7 @@ class CorrelationIdBundle extends AbstractBundle {
             ->children()
                 ->scalarNode('headerName')->end()
                 ->scalarNode('attributeName')->end()
+                ->scalarNode('logAttributeName')->end()
             ->end();
     }
 
