@@ -17,8 +17,10 @@ class CorrelationIdBundle extends AbstractBundle {
         $definition->rootNode()
             ->children()
                 ->arrayNode('correlationId')
-                    ->scalarNode('headerName')->end()
-                    ->scalarNode('attributeName')->end()
+                    ->children()
+                        ->scalarNode('headerName')->end()
+                        ->scalarNode('attributeName')->end()
+                    ->end()
                 ->end()
             ->end();
     }
