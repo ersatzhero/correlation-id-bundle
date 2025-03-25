@@ -1,6 +1,4 @@
-<?php
-
-namespace ersatzhero\CorrelationIdBundle\DependencyInjection;
+<?php namespace Ersatzhero\CorrelationIdBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\Attribute\AsDecorator;
 use Symfony\Component\DependencyInjection\Attribute\Autowire;

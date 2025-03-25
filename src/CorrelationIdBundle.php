@@ -1,4 +1,4 @@
-<?php namespace ersatzhero\CorrelationIdBundle;
+<?php namespace Ersatzhero\CorrelationIdBundle;
 
 use Symfony\Component\Config\Definition\Configurator\DefinitionConfigurator;
 use Symfony\Component\Config\FileLocator;

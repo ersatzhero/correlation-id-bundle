@@ -1,6 +1,4 @@
-<?php
-
-namespace ersatzhero\CorrelationIdBundle\Logger;
+<?php namespace Ersatzhero\CorrelationIdBundle\Logger;
 
 use Monolog\Attribute\AsMonologProcessor;
 use Monolog\LogRecord;

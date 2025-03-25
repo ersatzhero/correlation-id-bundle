@@ -1,6 +1,4 @@
-<?php
-
-namespace ersatzhero\CorrelationIdBundle\EventListener;
+<?php namespace Ersatzhero\CorrelationIdBundle\EventListener;
 
 use Symfony\Component\DependencyInjection\Attribute\Autowire;
 use Symfony\Component\EventDispatcher\Attribute\AsEventListener;
