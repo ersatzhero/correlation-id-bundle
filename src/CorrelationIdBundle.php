@@ -31,7 +31,7 @@ class CorrelationIdBundle extends AbstractBundle {
     public function loadExtension(array $config, ContainerConfigurator $container, ContainerBuilder $builder): void
     {
         $loader = new YamlFileLoader($builder, new FileLocator(__DIR__ . '/../config'));
-        $loader->load('correlationId.yml');
+        $loader->load('correlationId.yaml');
     }
 
 }
