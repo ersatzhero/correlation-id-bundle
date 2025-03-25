@@ -18,8 +18,8 @@ class HttpClientDecorator implements HttpClientInterface
     public function __construct(
         #[AutowireDecorated] private readonly HttpClientInterface $httpClient,
         private readonly RequestStack $requestStack,
-        #[Autowire(param: 'correlationId.headerName')] private readonly string $headerName,
-        #[Autowire(param: 'correlationId.attributeName')] private readonly string $attributeName)
+        #[Autowire(param: 'correlation_id.headerName')] private readonly string $headerName,
+        #[Autowire(param: 'correlation_id.attributeName')] private readonly string $attributeName)
     {
     }
 

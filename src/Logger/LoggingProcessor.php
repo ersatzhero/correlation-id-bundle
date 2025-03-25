@@ -11,8 +11,8 @@ class LoggingProcessor implements ProcessorInterface
 {
     public function __construct(
         private readonly RequestStack $requestStack,
-        #[Autowire(param: 'correlationId.attributeName')] private readonly string $attributeName,
-        #[Autowire(param: 'correlationId.logAttributeName')] private readonly string $logAttributeName)
+        #[Autowire(param: 'correlation_id.attributeName')] private readonly string $attributeName,
+        #[Autowire(param: 'correlation_id.logAttributeName')] private readonly string $logAttributeName)
     {
     }
 

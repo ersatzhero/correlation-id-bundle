@@ -12,7 +12,7 @@ class Middleware implements MiddlewareInterface
 {
     public function __construct(
         private readonly RequestStack $requestStack,
-        #[Autowire(param: 'correlationId.attributeName')] private readonly string $attributeName)
+        #[Autowire(param: 'correlation_id.attributeName')] private readonly string $attributeName)
     {
     }
 

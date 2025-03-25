@@ -9,8 +9,8 @@ use Symfony\Component\Uid\Uuid;
 class KernelEventListener
 {
     public function __construct(
-        #[Autowire(param: 'correlationId.headerName')] private readonly string $headerName,
-        #[Autowire(param: 'correlationId.attributeName')] private readonly string $attributeName)
+        #[Autowire(param: 'correlation_id.headerName')] private readonly string $headerName,
+        #[Autowire(param: 'correlation_id.attributeName')] private readonly string $attributeName)
     {
     }
 
