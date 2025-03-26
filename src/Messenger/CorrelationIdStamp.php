@@ -1,6 +1,4 @@
-<?php
-
-namespace ersatzhero\CorrelationIdBundle\Messenger;
+<?php namespace Ersatzhero\CorrelationIdBundle\Messenger;
 
 use Symfony\Component\Messenger\Stamp\StampInterface;
 
