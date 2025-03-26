@@ -1,4 +1,7 @@
 services:
   Ersatzhero\CorrelationIdBundle\:
     resource: '../src/*'
+    exclude:
+      - '../src/Messenger/CorrelationIdStamp.php'
+    autowire: true
     autoconfigure: true
