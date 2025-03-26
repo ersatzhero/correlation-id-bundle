@@ -1,4 +1,4 @@
 services:
-  Ersatzhero\CorrelationIdBundle\*:
+  Ersatzhero\CorrelationIdBundle\:
     resource: '../src/*'
     public: true
