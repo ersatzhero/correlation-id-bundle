@@ -21,6 +21,9 @@ class LoggingProcessor implements ProcessorInterface
      */
     public function __invoke(LogRecord $record): LogRecord
     {
+        if ($this->requestStack->getCurrentRequest() == null) {
+          return $record;
+        }
         $record->extra[$this->logAttributeName] = $this->requestStack->getCurrentRequest()->attributes->get($this->attributeName);
         return $record;
     }
