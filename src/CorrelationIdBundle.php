@@ -16,9 +16,9 @@ class CorrelationIdBundle extends AbstractBundle {
     {
         $definition->rootNode()
             ->children()
-                ->scalarNode('headerName')->end()
-                ->scalarNode('attributeName')->end()
-                ->scalarNode('logAttributeName')->end()
+                ->scalarNode('headerName')->defaultValue('X-CorrelationId')->end()
+                ->scalarNode('attributeName')->defaultValue('correlationId')->end()
+                ->scalarNode('logAttributeName')->defaultValue('correlationId')->end()
             ->end();
     }
 
