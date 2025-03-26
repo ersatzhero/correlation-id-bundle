@@ -1,4 +1,6 @@
 services:
   Ersatzhero\CorrelationIdBundle\:
     resource: '../src/*'
+    autowire: true
+    autoconfigure: true
     public: true
